@@ -1,0 +1,35 @@
+
+body{
+  margin: 40px auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'Caveat', cursive;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/1b/0d/53/1b0d53932f6ee65c879bffffe9fea9ba.jpg');
+  background-repeat: repeat;
+}
+
+h2{
+  margin-top: 50px;
+}
+#quote {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 50px;
+  color:#45c6ad;
+}
+
+#author {
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  color:#669eaf;;
+}
+footer{
+  font-size : 15px;
+  margin-top: 15px;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+}
+#quote-box{
+  margin-top: 50px;
+}
