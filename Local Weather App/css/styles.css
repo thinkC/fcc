@@ -1,0 +1,57 @@
+
+#weatherbox{
+    margin-top: 150px;
+
+}
+
+.sunny{
+    background: url('http://tonycraddockjr.com/wp-content/uploads/2015/01/Sunny-Day.jpg');
+}
+
+.shower{
+    background: url('https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=r0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9dee70ba78c49619bc7f5c8a91778f2b')repeat;
+
+}
+
+.shower1{
+    background: url('https://s3-eu-west-1.amazonaws.com/evokeuploads/2015/03/weather1.jpg')repeat;
+
+}
+
+.snow{
+    background-image: url('https://tripswithtots.files.wordpress.com/2013/01/fence-and-snowy-fields1.jpg')
+}
+
+h1{
+    color:#d9e2da;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.temp{
+    color: #d9e2da;
+    font-weight: bold;
+}
+
+.contain{
+    position: relative;
+    margin-top: 50px;
+}
+
+.imageIcon{
+    position: absolute;
+    left:635px;
+    bottom: 7px;
+}
+
+p{
+    font-size: 25px;
+}
+
+span{
+   font-family: 'Antic Slab', serif;
+}
+
+body{
+    margin-top: 30px;
+}
