@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+    color: black;
+}
+
+
+body{
+    background-color: cornflowerblue;
+}
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+#sea{
+    margin-bottom: 50px;
+}
