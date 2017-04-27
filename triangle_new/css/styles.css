@@ -82,6 +82,7 @@ p{
 }
 footer{
     padding: 30px;
+    
 }
 
 .navbar-header{
@@ -91,4 +92,5 @@ footer{
     position: absolute;
     left: -200px
 }
+
 
