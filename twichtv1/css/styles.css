@@ -1,0 +1,23 @@
+body{
+    background-color: cyan;
+    font-family:'Point one', cursive;
+}
+
+.round{
+    border-radius: 50%;
+    width: 75px;
+    height: auto;
+}
+
+.box{
+    width: 250px;
+    height: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    margin-bottom: 30px;
+}
