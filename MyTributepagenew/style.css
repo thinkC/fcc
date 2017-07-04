@@ -1,0 +1,24 @@
+<style>
+
+h1{
+  font-family:'Point one', cursive;
+  text-shadow:2px 2px #dbdbdb;
+  font-size:70px;
+}
+body{
+  background-color:white;
+  margin:40px auto;
+}
+img{
+  
+  margin:auto;
+  padding-bottom:10px;
+  width:50%;
+}
+.p1{
+  text-shadow:1px 1px #dbdbdb;
+  font-family:'Caveat',cursive;
+  font-size:18px;
+}
+
+</style>
