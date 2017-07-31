@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lemonada|Oxygen');
+
+body{
+   background-color: #d8d5e5; 
+}
+.calBody{
+    position: relative;
+    top: 150px;
+    left: 550px;
+    width: 350px;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-family: 'oxygen' cursive;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #333;
+    background-color: #383730;
+    display: inline-block;
+}
+.calRow button{
+    margin: 7px 5px 8px 10px;
+    padding: 10px;
+    width: 50px;
+    border-right: 5px;
+    box-shadow: 3px 3px 10px #111;
+    background-color: #232321;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    transition: all 0.07s ease;
+}
+.output{
+    margin-left: 50px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 250px;
+    min-height: 40px;
+    font-size: 2em;
+    background-color: #e2debe;
+    text-align: right;
+    color: black;
+    font-family: cursive;
+    
+}
+p{
+    color: #c5f74a;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+div .yellow{
+    background-color: #f7dd4a;
+    color: black;
+}
+
+div .orange{
+    background-color: #db622e;
+}
+
+div .red{
+    color: #ea4848;
+    font-weight: bold;
+}
+.calRow button.zero{
+    width:75px;
+}
+.calRow button.equal{
+    width: 70px;
+}
+
+.change{
+    transform: scale(1.1);
+    border-color: #76ff00;
+    box-shadow: 0 010px #76ff00;
+}
