@@ -11,12 +11,20 @@ h3{
 	color: #fff;
 }
 .box1{
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 90px;
 }
 footer{
-	color: #fff;
-	margin-top:30px;
+	color: #000;
+	margin-top:50px;
 }
 b{
-	color: #8BBE1B	;
+	color: #000	;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+	margin-top: 90px;
+}
+footer i{
+	color: #000;
 }

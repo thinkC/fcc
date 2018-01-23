@@ -13,10 +13,17 @@ $(function(){
     	console.log(lat);
     	console.log(lon);
     	var url = 'https://fcc-weather-api.glitch.me/api/current?' + 'lat='+lat +'&' + 'lon='+ lon;
+    	var $content = $('#content');
     	console.log(url);
     	$.ajax({
 		type:"GET",
 		url:url,
+		beforeSend : function(){
+			$content.append('<div class="text-center"><img id="load" src="images/ajax-loader.gif"></div>');
+		},
+		complete:function(){
+			$('#load').remove();
+		},
 		success:function(data){
 			//console.log(data);
 			var name = "";
