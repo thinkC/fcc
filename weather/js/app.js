@@ -29,8 +29,8 @@ $(function(){
 			var name = "";
 			var temp = "";
 			name += '<h3> '+ data.name + ' ' + data.sys.country + '</h3>';
-			temp += '<h3>' + data.main.temp + ' ' + 'Degrees' + '</h3>';
-
+			temp += '<h3>' + data.main.temp + ' ' + '&#8451;' + '</h3>';
+			//temp += '<h3>' + data.main.temp + ' ' + 'Degrees' + '</h3>';
 			var country = data.sys.country;
 			var desc = data.weather[0].description;
 			var icon = data.weather[0].icon;
