@@ -19,7 +19,7 @@ $(function(){
 		type:"GET",
 		url:url,
 		beforeSend : function(){
-			$content.append('<div class="text-center"><img id="load" src="images/ajax-loader.gif"></div>');
+			$content.append('<div class="text-center"><img id="load" src="images/loading.gif"></div>');
 		},
 		complete:function(){
 			$('#load').remove();
