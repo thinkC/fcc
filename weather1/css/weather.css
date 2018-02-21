@@ -23,7 +23,7 @@ h3{
 }
 footer{
 	color: #000;
-	margin-top:50px;
+	margin-top:5px;
 }
 b{
 	color: #000	;
@@ -31,7 +31,9 @@ b{
 hr.style1{
 	border-top: 1px solid #8c8b8b;
 	margin-top: 90px;
+	margin-bottom: 5px;
 }
 footer i{
 	color: #000;
+
 }
